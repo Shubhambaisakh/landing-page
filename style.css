@@ -344,11 +344,11 @@ p, li, label, input, select, textarea {
   background-image:
     linear-gradient(
       105deg,
-      rgba(14, 46, 26, 0.92) 0%,
-      rgba(14, 46, 26, 0.75) 50%,
-      rgba(0, 0, 0, 0.45) 100%
+      rgba(14, 46, 26, 0.82) 0%,
+      rgba(14, 46, 26, 0.55) 50%,
+      rgba(0, 0, 0, 0.35) 100%
     ),
-    url('assets/images/img-01.jpg');
+    url('assets/images/back ground.jpg');
   background-size: cover;
   background-position: center;
   background-color: var(--color-primary);

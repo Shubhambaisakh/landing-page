@@ -1776,3 +1776,20 @@ footer {
     font-size: 1.5rem !important;
   }
 }
+
+/* ============================================================
+   Developer Credit
+   ============================================================ */
+.dev-credit {
+  background-color: #0a1a0f;
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 0.6rem 1rem;
+  letter-spacing: 0.03em;
+}
+
+.dev-credit strong {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+}

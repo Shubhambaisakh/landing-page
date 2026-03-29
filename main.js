@@ -94,7 +94,7 @@ export const PRODUCTS = [
   },
   {
     id: 'hand-soap-gel',
-    name: 'Floor Cleaner',
+    name: 'Dishwash Liquid',
     category: 'home-hygiene',
     image: 'assets/glass clearer.jpeg',
     icon: null,
@@ -102,9 +102,9 @@ export const PRODUCTS = [
   },
   {
     id: 'glass-cleaner',
-    name: 'Dishwash Liquid',
+    name: '5L Floor Cleaner',
     category: 'home-hygiene',
-    image: 'assets/dishwasher.jpeg',
+    image: 'assets/images/5L floor cleaner.jpeg',
     icon: null,
     features: ['Streak-free finish', 'Fast evaporating', 'Safe on all glass surfaces'],
   },
@@ -648,7 +648,6 @@ document.addEventListener('DOMContentLoaded', () => {
     { src: 'assets/image20.jpeg',           alt: 'Prabal Herbal Product' },
     { src: 'assets/image 12.jpeg',          alt: 'Prabal Herbal Product' },
     { src: 'assets/one1.jpeg',              alt: 'Prabal Herbal Product' },
-    { src: 'assets/carwasher2.png',         alt: 'Prabal Herbal Car Washer 2' },
     { src: 'assets/imsge 4.jpeg',           alt: 'Prabal Herbal Product' },
     { src: 'assets/image21.jpeg',           alt: 'Prabal Herbal Product' },
     { src: 'assets/imsge5.jpeg',            alt: 'Prabal Herbal Product' },
@@ -656,9 +655,11 @@ document.addEventListener('DOMContentLoaded', () => {
     { src: 'assets/imagww11.jpeg',          alt: 'Prabal Herbal Product' },
     { src: 'assets/imsge15.jpeg',           alt: 'Prabal Herbal Product' },
     { src: 'assets/image 19.jpeg',          alt: 'Prabal Herbal Product' },
-    { src: 'assets/50 pecent off.jpeg',     alt: 'Prabal Herbal 50% Off Offer' },
-    { src: 'assets/image22.jpeg',           alt: 'Prabal Herbal Product' },
+    { src: 'assets/carrwasher.png',         alt: 'Prabal Herbal Car Washer' },
+    { src: 'assets/carwasher2.png',         alt: 'Prabal Herbal Car Cleaner' },
     { src: 'assets/image23.jpeg',           alt: 'Prabal Herbal Product' },
+    { src: 'assets/image14.jpeg',           alt: 'Prabal Herbal Product' },
+    { src: 'assets/image22.jpeg',           alt: 'Prabal Herbal Product' },
   ];
   initGallery(galleryImages);
 

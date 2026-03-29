@@ -1,0 +1,17 @@
+# Dev dependencies — not needed for the live site
+node_modules/
+
+# Test files
+tests/
+
+# Spec and config files
+.kiro/
+package.json
+package-lock.json
+
+# Editor config
+.vscode/
+
+# Placeholder files
+assets/images/.gitkeep
+assets/icons/.gitkeep

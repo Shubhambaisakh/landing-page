@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" width="420" height="120">
+  <defs>
+    <!-- Prabal gradient: white -->
+    <linearGradient id="prabalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e8e8e8"/>
+    </linearGradient>
+    <!-- Herbal gradient: yellow-green to fresh green -->
+    <linearGradient id="herbalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#c8e63c"/>
+      <stop offset="100%" stop-color="#7ab82a"/>
+    </linearGradient>
+    <!-- Leaf gradient -->
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#c8e63c"/>
+      <stop offset="100%" stop-color="#2d8a4e"/>
+    </linearGradient>
+    <!-- Subtle text shadow filter -->
+    <filter id="textGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.35)"/>
+    </filter>
+  </defs>
+
+  <!-- Leaf above the P -->
+  <g transform="translate(14, 4)" filter="url(#textGlow)">
+    <!-- Main leaf shape -->
+    <path d="M10 18 C10 18 2 10 6 4 C10 -2 18 2 18 8 C18 14 12 18 10 18 Z"
+          fill="url(#leafGrad)" opacity="0.95"/>
+    <!-- Leaf vein -->
+    <path d="M10 18 C10 14 11 8 14 5"
+          stroke="#14472a" stroke-width="0.8" fill="none" opacity="0.6"/>
+    <!-- Small stem -->
+    <line x1="10" y1="18" x2="10" y2="22"
+          stroke="url(#leafGrad)" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- "Prabal" text -->
+  <text
+    x="8"
+    y="88"
+    font-family="'Georgia', 'Times New Roman', serif"
+    font-size="72"
+    font-weight="700"
+    font-style="italic"
+    fill="url(#prabalGrad)"
+    filter="url(#textGlow)"
+    letter-spacing="-1"
+  >Prabal</text>
+
+  <!-- "Herbal" text — offset right, slightly smaller, yellow-green -->
+  <text
+    x="220"
+    y="88"
+    font-family="'Georgia', 'Times New Roman', serif"
+    font-size="72"
+    font-weight="700"
+    font-style="italic"
+    fill="url(#herbalGrad)"
+    filter="url(#textGlow)"
+    letter-spacing="-1"
+  >Herbal</text>
+
+  <!-- Thin decorative underline -->
+  <line x1="8" y1="96" x2="412" y2="96"
+        stroke="url(#herbalGrad)" stroke-width="1.5" opacity="0.5" stroke-linecap="round"/>
+
+  <!-- Tagline -->
+  <text
+    x="210"
+    y="114"
+    font-family="'Georgia', serif"
+    font-size="11"
+    font-style="italic"
+    fill="rgba(200,230,60,0.75)"
+    text-anchor="middle"
+    letter-spacing="2"
+  >by Asha Industries</text>
+</svg>

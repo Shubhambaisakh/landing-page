@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "vitest run --environment jsdom",
+    "dev": "npx --yes serve . --listen 3000 --no-clipboard"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "fast-check": "^3.0.0",
+    "jsdom": "^24.0.0"
+  }
+}
